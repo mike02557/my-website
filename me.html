@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>莊惠中</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header,
+        nav,
+        section,
+        footer {
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background: #444;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>歡迎來到我的個人網站</h1>
+    </header>
+    <nav>
+        <a href="#about">個人簡介</a>
+        <a href="#portfolio">作品集</a>
+        <a href="#contact">聯絡方式</a>
+        <a href="#blog">個人文章</a>
+    </nav>
+    <section id="about">
+        <h2>個人簡介</h2>
+        <p>這裡是你的個人簡介...</p>
+    </section>
+    <section id="portfolio">
+        <h2>作品集</h2>
+        <p>這裡展示你的作品...</p>
+    </section>
+    <section id="contact">
+        <h2>聯絡方式</h2>
+        <p>這裡是你的聯絡信息...</p>
+        <form>
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">訊息：</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="提交">
+        </form>
+    </section>
+    <section id="blog">
+        <h2>個人文章</h2>
+        <p>這裡是你的博客文章...</p>
+    </section>
+    <footer>
+        <p>&copy; 非本科轉職工程師 練習網站</p>
+    </footer>
+</body>
+
+</html>
